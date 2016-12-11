@@ -1,14 +1,14 @@
 {
 "config":
 {
-	"use_auth":false,
-	"use_alerts":true,
-	"use_openhab":true
+	"use_auth":true,
+	"use_alerts":false,
+	"use_openhab":false
 },
 "alerts":
 {
 	"time_to_wait" : 10,
-	"alert_type" : "<smtp OR pushbullet",
+	"alert_type" : "<smtp OR pushbullet>",
 	"smtp":
 		{
 		"smtphost" : "<SMTP HOST>",
@@ -38,7 +38,7 @@
 	{
 		"left" : 
 			{
-			"name" : "Sarah",
+			"name" : "Left",
 			"relay_pin" : 23,
 			"state_pin" : 17,
 			"approx_time_to_close" : 10,
@@ -47,7 +47,7 @@
 			},
 		"right" : 
 			{
-			"name" : "Lior",
+			"name" : "Right",
 			"relay_pin" : 24,
 			"state_pin" : 27,
 			"approx_time_to_close" : 10,
